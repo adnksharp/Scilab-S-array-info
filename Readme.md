@@ -1,6 +1,6 @@
-# Máximo y mínimo de una matriz
+# Promedio, raíz cuadrada de la suma de los cuadrados, máximo y mínimo de una matriz
 
-Los códigos muestran como obtener el máximo y el mínimo de una matriz.
+Los códigos muestran como obtener valores de una matriz.
 
 ```
         Maximo valor de una matriz
