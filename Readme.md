@@ -1,15 +1,26 @@
-# Promedio, raíz cuadrada de la suma de los cuadrados, máximo y mínimo de una matriz
+# info arrays
 
-Los códigos muestran como obtener valores de una matriz.
+Uso de funciones de scilab para obtener la media, mediana y moda de un array ademas de la suma, máximo y mínimo de los valores analizados.
 
-```
-        Maximo valor de una matriz
-Matriz original:
+### Ejemplo de uso
+```Octave
+exec ('info.sci', -1)
 
-   211.32487   756.04385   0.2211346   330.32709   ...
-   560.84861   662.35694   726.35068   198.51438   ...
-   307.60907   932.96162   214.60079   312.642     ...
-   ...         ...         ...         ...         ...
+--> my = [12,31,98,78,90;09,1,121,144,88;12,98,98,77,6]
+ my  =
 
-Valor mayor de la matriz: 993.120990
+   12.   31.   98.    78.    90.
+   9.    1.    121.   144.   88.
+   12.   98.   98.    77.    6.
+
+--> info(my, 1)
+Suma: 963
+Promedio: 64
+Maximo: 144
+Minimo: 1
+Mediana: 78
+Moda: 98
+ ans  =
+
+   963.   64.2   144.   1.   78.   98.
 ```
